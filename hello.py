@@ -15,9 +15,23 @@ print(money)
 #You can also slice a string by just using the number position followed by : if u want remaining part of string
 #Using number: will print whatever position and remaining
 
-food = "I am hungry, I am not hungry"
-print(food[12:])
+#food = "I am hungry, I am not hungry"
+#print(food[12:])
 
 #Using :number will print to whatever position is called and stops
-food1 = "Hotdogs, Hamburgers"
-print(food1[:7])
+#food1 = "Hotdogs, Hamburgers"
+#print(food1[:7])
+
+
+#coverting strings to numbers
+#Casting when converting below str string to number
+
+price = input("What is the price of your cup of coffee?")
+cups = input("How many cups of coffee do you want?")
+total = float(price) * int(cups)
+print("Your total is $" + str(total) + " for " + cups + " cups.")
+
+#Print just first letter of name
+
+myname = input("Please enter your first name")
+print(myname[:1])
